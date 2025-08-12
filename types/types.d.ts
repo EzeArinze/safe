@@ -1,0 +1,1 @@
+type AuthProvider = "github" | "google";

@@ -10,6 +10,8 @@ export const env = createEnv({
     GOOGLE_CLIENT_ID: z.string().min(1),
     GOOGLE_CLIENT_SCERET: z.string().min(1),
     BETTER_AUTH_SECRET: z.string().min(1),
+    ARCJET_KEY: z.string().min(1),
+    RESEND_KEY: z.string().min(1),
   },
   // If you're using Next.js < 13.4.4, you'll need to specify the runtimeEnv manually
   // runtimeEnv: {
